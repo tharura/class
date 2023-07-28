@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My class</title>
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.split {
+  height: 100%;
+  width: 33.4%;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+.left {
+  left: 0;
+  background-color: #fccce9;
+}
+
+.right {
+  right: 0;
+  background-color: #f6f8b0;
+}
+
+.middle {
+  left: 33.4%;
+  background-color: #caf7f2;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -58%);
+  text-align: center;
+}
+
+.centered img {
+  border-radius: 0%;
+}
+
+.down{
+  position: absolute;
+  top: 96%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1{
+font-size:40pt;
+line-height:2pt;
+font-family:Nexa Heavy;
+text-decoration:none;
+color:black;
+}
+h5{
+font-size:12pt;
+line-height:1pt;
+font-family:Nexa Regular;
+text-decoration:none;
+color:black;
+}
+
+</style>
+</head>
+<body>
+
+<script>
+function bigImgMaths(x) {
+  x.style.height = "276px";
+  x.style.width = "265px";
+}
+
+function normalImgMaths(x) {
+  x.style.height = "236px";
+  x.style.width = "225px";
+}
+function bigImgp6(x) {
+  x.style.height = "279px";
+  x.style.width = "260px";
+}
+
+function normalImgp6(x) {
+  x.style.height = "239px";
+  x.style.width = "220px";
+}
+function bigImgict(x) {
+  x.style.height = "289px";
+  x.style.width = "310px";
+}
+
+function normalImgict(x) {
+  x.style.height = "239px";
+  x.style.width = "260px";
+}
+</script>
+
+<div class="split left">
+ <a href="https://sailingpenapp.eclass.lk/my-classes/501">
+  <div class="centered">
+    <img src="Maths.png" alt="maths" 
+	onmouseover="bigImgMaths(this)"onmouseout="normalImgMaths(this)">
+	<br><br><br><br><br>
+    <h1>MATHS</h1>
+    <h5>Ruwan Darshana<h5>
+  </div>
+    <div class="down">
+    <img src="sailingpen.png" alt="Sailing Pen">
+  </div>
+ </a>
+</div>
+
+<div class="split middle">
+ <a href="https://nozeroapp.eclass.lk/my-classes/848">
+  <div class="centered">
+    <img src="p6.png" alt="physics"
+	onmouseover="bigImgp6(this)"onmouseout="normalImgp6(this)">
+	<br><br><br><br>
+    <h1>PHYSICS</h1>
+    <h5>Mahen Jecob</h5>
+  </div>
+    <div class="down">
+    <img src="nozero.png" width="150px" alt="No Zero">
+  </div>
+ </a>
+</div>
+
+<div class="split right">
+ <a href="https://usaspela.lk/course/view/60e2a7a94864b972aa0b66ba">
+  <div class="centered">
+    <img src="ICT.png" alt="ict"
+	onmouseover="bigImgict(this)"onmouseout="normalImgict(this)">
+	<br><br><br><br>
+    <h1>ICT</h1>
+    <h5>Danushka Ravishan</h5>
+  </div>
+    <div class="down">
+    <img src="usaspela.png" width="130px" alt="Usaspela.lk">
+  </div>
+ </a>
+</div>
+     
+</body>
+</html> 
